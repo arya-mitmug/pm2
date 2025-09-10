@@ -1,60 +1,89 @@
-.navi{
-    margin-left: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+.header {
+  display: flex;
+  justify-content: center;   
+  align-items: center;      
+  position: relative;        
 }
 
+.nav-left {
+  position: absolute;        
+  left: 0;
+}
 
-h1{
+#heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h4{
-    margin-left: 420px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-p{
-    margin-left: 420px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1000px;
-}
-
-a{ 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.title{
-    position: absolute;
-    top: 18%;
-    left: 40%;
-    background-color: white;
-    padding: 10px;
 }
 
 .navigation {
-    text-align: center;
-    background-color: rgb(236, 236, 236);
-    border: 1px solid black;
-    padding: 10px;
-    width: 110px;
-}
-
-.links{
-    padding-left: 420px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 120px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    border: 1px, solid, rgb(165, 165, 165);
+    border-radius: 7px;
+    padding: 6px;
+    text-decoration: none;
 }
 
-#button{
+hr {
+    color: gray; 
+    size: 2px; 
+    width: 100%;
+    margin: 0;
+}
+
+.firstdiv {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    font-style: bold;
-    background-color: rgb(236, 236, 236);
-    border: 1px solid black;
-    padding: 10px;
-    width: 110px;
+    width: 930px;
+    margin: auto;
+    border: 1px, solid, rgb(165, 165, 165);
+    border-radius: 10px;
+    width: 910px;
+    padding: 20px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-#bgimg {
-    padding-left: 420px;
+#head1 {
+    margin-bottom: 4px;
+}
+
+#p1 {
+    margin-top: 4px;
+}
+
+img {
+    float: right;
+    margin: 20px;
+    margin-top: 58px;
+    border-radius: 10px;
+}
+
+.seconddiv {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 950px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#action {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 950px;
+    margin: auto;
+    width: 800px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
 }
